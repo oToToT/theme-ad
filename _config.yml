@@ -85,13 +85,13 @@ analytics:
     id: 
 
 # 打赏图片
-reward:
-  -
-    src: /images/wechat.png
-    alt: "WeChat"
-  -
-    src: /images/alipay.png
-    alt: "AliPay"
+#reward:
+#  -
+#    src: /images/wechat.png
+#    alt: "WeChat"
+#  -
+#    src: /images/alipay.png
+#    alt: "AliPay"
 
 # 第三方库的CDN地址
 # 请根据情况自行决定是否替换为国内CDN
