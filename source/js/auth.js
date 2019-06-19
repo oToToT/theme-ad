@@ -11,29 +11,29 @@
       now = new Date().getTime();
 
     if(passwords.includes(password) && now < expires) {
-      return; 
+      return;
     }
 
-    password = prompt('输入您的名称小写全拼 (例如: 李三 => lisan)');
+    password = prompt('請輸入閱讀許可碼');
     password = sha256(password || '');
 
     if(passwords.includes(password)) {
       expires = now + day * 3;
       window.localStorage.setItem('auth', btoa(`${password}:${expires}`));
     } else {
-      alert('您没有阅读权限');
+      alert('您沒有閱讀之權限');
       window.location.href = root;
     }
   };
 
   // print github and demo info
-  console.log(
-    '\n%c Theme-AD v2.6.0 %c' + 
-    ' 🎉 https://github.com/dongyuanxin/theme-ad 🎉\n' + 
-    '\n%c Preview Online %c' + 
-    ' 🔍 https://godbmw.com/ 🔍  \n' , 
+  /* console.log(
+    '\n%c Theme-AD v2.6.0 %c' +
+    ' 🎉 https://github.com/dongyuanxin/theme-ad 🎉\n' +
+    '\n%c Preview Online %c' +
+    ' 🔍 https://godbmw.com/ 🔍  \n' ,
     'color: #fadfa3; background: #030307; padding:3px 0;', '', 'color: #fadfa3; background: #030307; padding:3px 0;', ''
-  );
+  ); */
 
   // article password auth
   auth();

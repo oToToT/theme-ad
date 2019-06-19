@@ -5,9 +5,9 @@
 
     return () => {
       let offset = parseInt((new Date().getTime() - ts) / 1000, 10)
-      
+
       if(offset < 0) {
-        dom.innerHTML = "0天0时0分0秒";
+        dom.innerHTML = "0天0時0分0秒";
         return;
       }
 
@@ -16,7 +16,7 @@
         minute = Math.floor(((offset % 86400) % 3600) / 60),
         second = Math.floor(((offset % 86400) % 3600) % 60);
 
-      dom.innerHTML = day + "天" + hour + "时" + minute + "分" + second + "秒";
+      dom.innerHTML = day + "天" + hour + "時" + minute + "分" + second + "秒";
     };
   }
 
@@ -32,7 +32,7 @@
   isNaN(startTime.month) && (startTime.month = 2);
   isNaN(startTime.day) && (startTime.day = 10);
 
-  const timeUpdate = update('#site-time', startTime);
-  timeUpdate();
-  setInterval(timeUpdate, 1000);
+  // const timeUpdate = update('#site-time', startTime);
+  // timeUpdate();
+  // setInterval(timeUpdate, 1000);
 })();
