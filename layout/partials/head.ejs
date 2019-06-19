@@ -61,7 +61,18 @@
   <% } %>
 
   <% if(theme.mathjax) { %>
-    <script type="text/javascript" src="<%- theme.cdn.mathjax %>" async></script>
+    <script type="text/javascript" src="<%- theme.cdn.mathjax %>" async>
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS"  }  },
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          displayMath: [ ['$$','$$'], ["\\[","\\]"]  ],
+          processEscapes: true 
+        },
+        'HTML-CSS': { scale: 90  },
+         displayIndent: '2em'                                    
+      });
+    </script>
   <% } %>
 
   <% if(theme.leancloud.comment) { %>
