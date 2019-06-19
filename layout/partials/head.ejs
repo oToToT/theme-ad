@@ -6,7 +6,7 @@
     let title = page.title || '';
 
     if (is_archive()){
-      title = '归档';
+      title = '所有文章';
 
       if (is_month()){
         title += ': ' + page.year + '/' + page.month;
@@ -14,17 +14,17 @@
         title += ': ' + page.year;
       }
     } else if (is_category()){
-      title = '分类: ' + page.category;
+      title = '分類: ' + page.category;
     } else if (is_tag()){
-      title = '标签: ' + page.tag;
+      title = '標籤: ' + page.tag;
     } else if (page.type === "about") {
-      title = "关于"
+      title = "關於"
     } else if (page.type === "tags") {
-      title = "标签"
+      title = "標籤"
     } else if (page.type === "categories") {
-      title = "分类"
+      title = "分類"
     } else if (page.type === "friends") {
-      title = "友链"
+      title = "友情連結"
     }
 
     page.current && page.current > 1 && (title = `${title} | 第${page.current}页`);
