@@ -78,8 +78,8 @@ analytics:
   baidu:
     enable: false
   google:
-    enable: false
-    id: 
+    enable: true 
+    id: UA-43236443-6
   "360":
     enable: false
     id: 
