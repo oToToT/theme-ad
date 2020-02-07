@@ -4,15 +4,15 @@ keywords: CTF, Blog, oToToT
 
 description: 紀錄oToToT的各種瑣事
 
-# 导航栏头部名称
+# 導航欄頭部名稱
 nav_name: oToToT
 
-# 导航栏座右铭
+# 導航欄座右銘
 motto: "存在與不存在，無論事物的想法"
 
 github: "https://github.com/oToToT/"
 
-# 站点图标和APP图标
+# 站点圖標和APP圖標
 favicon: 
   icon: /images/favicon.ico
   touch_icon: /images/touch-icon.png
@@ -20,50 +20,50 @@ favicon:
 # RSS文件位置
 rss: 
 
-# 自定义样式文件
+# 自定義樣式文件
 custom_styles: 
 
-# 自定义脚本文件
+# 自定義腳本文件
 custom_scripts: 
 
-# 代码高亮主题: normal | night | night blue | night bright | night eighties
+# 代碼高亮主題: normal | night | night blue | night bright | night eighties
 highlight_theme: "night eighties"
 
-# 开启数学公式渲染
+# 開啟數學公式渲染
 mathjax: true
 
 copyright:
   enable: false
-  author: "董沅鑫"
+  author: "oToToT"
   show_link: false
-  more: '版权声明: 本博客所有文章除特别声明外, 均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议. 转载请注明出处!'
+  more: ''
 
-# 建站时间. 格式：YYYY-MM-DD
+# 建站時間. 格式：YYYY-MM-DD
 start_time: "2019-06-15"
 
-# 如何开启 评论&统计 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
-# 请申请自己的 appid 和 appkey，并且替换下面的 appid 和 appkey
+# 如何開啟 評論&統計 插件：https://godbmw.com/passages/2018-11-15-theme-bmw-docs-zh/
+# 請申請自己的 appid 和 appkey，並且替換下面的 appid 和 appkey
 leancloud:
-  appid: Hyq9wkH495DgNHWhDQCOfQSp-gzGzoHsz # 填写您的appid
-  appkey: WaR7nrzhliHj9aVwdQzkdlGd # 填写您的appkey
-  comment: false # 是否开启评论系统
-  count: false # 是否开启文章统计
+  appid: Hyq9wkH495DgNHWhDQCOfQSp-gzGzoHsz # 填寫您的appid
+  appkey: WaR7nrzhliHj9aVwdQzkdlGd # 填寫您的appkey
+  comment: false # 是否開啟評論系統
+  count: false # 是否開啟文章統計
 
-# 需要保证leancloud.count为true
+# 需要保證leancloud.count為true
 welcome: 
   enable: false
   interval: 30
 
-# 需要保证leancloud.comment为false
+# 需要保證leancloud.comment為false
 disqus: 
   enable: true
   id: "github-ototot"
 
-# 需要保证leancloud.count为false
+# 需要保證leancloud.count為false
 busuanzi: false
 
-# 存放sha256加密的密码
-# 拥有所有加锁文章的阅读权限
+# 存放sha256加密的密碼
+# 擁有所有加鎖文章的閱讀權限
 passwords: 
   - c967350c7e652c6305ef7c7dba4feb6b1106bba85fbef5d08d1897ef42fd5ffd
 
@@ -84,7 +84,7 @@ analytics:
     enable: false
     id: 
 
-# 打赏图片
+# 打賞圖片
 #reward:
 #  -
 #    src: /images/wechat.png
@@ -93,8 +93,8 @@ analytics:
 #    src: /images/alipay.png
 #    alt: "AliPay"
 
-# 第三方库的CDN地址
-# 请根据情况自行决定是否替换为国内CDN
+# 第三方庫的CDN地址
+# 請根據情况自行决定是否替會換為國內CDN
 cdn: 
   leancloud: "//cdn.jsdelivr.net/npm/leancloud-storage@3.11.1/dist/av-min.js"
   mathjax: "//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
