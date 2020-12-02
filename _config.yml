@@ -128,7 +128,7 @@ footer:
     children: 
       -
         name: "OI解題雜筆"
-        path: "https://blog.ototot.tk"
+        path: "https://oi.ototot.tw"
       -
         name: "Codeforces"
         path: "https://codeforces.com/profile/oToToT"

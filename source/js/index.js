@@ -56,7 +56,7 @@
 
   // load after DOM built
   const documentSrcs = [
-    'js/copy.js',
+    //'js/copy.js',
     'js/layer.js',
     'js/scroll.js',
     'js/backTop.js',
