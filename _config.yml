@@ -57,7 +57,7 @@ welcome:
 # 需要保證leancloud.comment為false
 disqus: 
   enable: true
-  id: "github-ototot"
+  id: "ctf-ototot"
 
 # 需要保證leancloud.count為false
 busuanzi: false
